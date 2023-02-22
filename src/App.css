@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  background-image: linear-gradient(rgb(152, 152, 233),pink, white);
+  text-align: center;
+  height: 100vh;
+  font-size: 30px;
+}
+.input{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.submit{
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 30px;
+
+}
+.result{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(152, 152, 233);
+  /* border: 2px solid black; */
+  /* width: 85vw; */
+}
+
+.section{
+  display: flex;
+  margin: 25px;
+background-color: pink;
+    padding: 12px;
+  font-size: 22px;
+  width: max-content;
+  border: 2px solid black;
+  border-radius: 10px;
+}
